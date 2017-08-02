@@ -1,19 +1,20 @@
-.w-header {
-  background-color: #FFFFFF;
-  border: 1px solid #CCCCCC;
-  padding: 5px;
-  ul {
-    display: block;
-    list-style: none;
-    li {
-      display: inline-block;
-      background-color: #CCCCCC;
-      vertical-align: middle;
-      height: 33px;
-      padding: 5px;
-      a {
-        text-decoration: none;
-      }
+@media (max-width: 768px) {
+    .pc-logo {
+        display: none;
     }
-  }
+    .ipad-logo{
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    .pc-logo{
+        display: block;
+    }
+    .ipad-logo{
+        display: none;
+    }
+}
+
+.navbar-static-top {
+  margin-bottom: 20px;
 }

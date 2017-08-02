@@ -1,4 +1,4 @@
 {extends file="common/page/layout.tpl"}
 {block name="main"}
-  {widget name="home:widget/post-list/post-list.tpl" posts=$data.posts}
+	{widget name="home:widget/brand-list/brand-list.tpl"}
 {/block}
